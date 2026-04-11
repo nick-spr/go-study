@@ -1,9 +1,11 @@
-Результат при println всегда должен быть 100. 
-Решить задачку через:
-atomic
-mutex
-channel 
+**Результат при println всегда должен быть 100**
 
+Решить задачку через:
+1. atomic
+2. mutex
+3. channel
+ 
+```go
 func main() {
     counter := 0
 
@@ -15,3 +17,4 @@ func main() {
 
     fmt.Println(counter)
 }
+```
